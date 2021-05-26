@@ -8,3 +8,13 @@ export const addItem=item =>({
     type:CartActionType.ADD_ITEM,
     paylod:item
 });
+
+export const removeItem= item=>({
+    type:CartActionType.REMOVE_ITEM,
+    paylod:item
+});
+
+export const clearItemFromCart= item =>({
+    type:CartActionType.CLEAR_ITEM_FROM_CART,
+    paylod:item
+});
