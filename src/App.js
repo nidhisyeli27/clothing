@@ -30,7 +30,7 @@ unsubscribeFromAuth = null;
     }
 
     setCurrentUser(userAuth);
-    });
+   });
   }
 
   componentWillUnmount(){
